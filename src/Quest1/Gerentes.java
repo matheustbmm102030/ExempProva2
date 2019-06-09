@@ -3,7 +3,7 @@ package Quest1;
 
 public class Gerentes extends Funcionario{
     private String departamento;
-    Gerentes(String n,String m,double s,String dp){
+    public Gerentes(String n,String m,double s,String dp){
         super(n,m,s);
         setDepartamento(dp);
     }

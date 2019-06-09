@@ -3,7 +3,7 @@ package Quest1;
 
 public class AssistentesTecnicos extends Assistente{
     private double bonus;
-    AssistentesTecnicos(String n,String m,double s,Gerentes sup,double b){
+    public AssistentesTecnicos(String n,String m,double s,Gerentes sup,double b){
         super(n,m,s,sup);
         setBonus(b);
     }
